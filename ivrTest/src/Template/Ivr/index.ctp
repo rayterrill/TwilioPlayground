@@ -22,7 +22,7 @@
 ?>
 
 <Response>
-    <Gather action="/process_gather.php" method="POST">
+    <Gather action="/TwilioPlayground/ivrTest/gather" method="GET">
         <Say voice="woman">Hello, <?php echo $name ?>.</Say>
         <Say voice="woman">Thank you for calling Ray's Test Service. Please enter your sales for today. Enter sales numbers without decimal points. Press pound to save your data.</Say>
     </Gather>

@@ -18,8 +18,7 @@ use Cake\Core\Configure;
 use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
 
-class IvrController extends AppController
-{
+class IvrController extends AppController {
     public function index() {
         //get the From url parameter and pass it to our view
         $from = $this->request->query('From');
