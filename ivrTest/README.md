@@ -10,21 +10,6 @@ A quick proof-of-concept IVR system illustrating a basic welcome messages and pr
 ## Machine Preparation ##
 1. sudo yum update -y
 2. sudo yum install php56 php56-mbstring php56-intl php56-pdo php56-mysqlnd git -y
-
-
-## Machine Preparation ##
-1. sudo yum update -y
-2. sudo yum install php56 php56-mbstring php56-intl php56-pdo php56-mysqlnd git -y
-
-
-## Machine Preparation ##
-1. sudo yum update -y
-2. sudo yum install php56 php56-mbstring php56-intl php56-pdo php56-mysqlnd git -y
-
-
-## Machine Preparation ##
-1. sudo yum update -y
-2. sudo yum install php56 php56-mbstring php56-intl php56-pdo php56-mysqlnd git -y
 3. sudo chkconfig --levels 3 httpd on
 4. Modify your /etc/httpd/conf/httpd.conf file in the /var/www/html section:
   1. AllowOverride All
